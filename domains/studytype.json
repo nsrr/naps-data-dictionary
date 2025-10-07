@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "full night PSG, diagnostic",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "full night PSG on Continuous Positive Airway Pressure (CPAP)",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "full night PSG on mandibular advancement device (MAD)",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Split-night PSG (2nd half of night with either CPAP or MAD)",
+    "description": ""
+  }
+]

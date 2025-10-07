@@ -7,5 +7,6 @@
 # Data Dictionary folders
 /coverage
 /csvs
+/imports
 /exports
 /graphs
