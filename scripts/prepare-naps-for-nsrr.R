@@ -30,7 +30,9 @@ naps_nsrr <- naps |>
          nsrr_sex = case_match(nsrr_sex,
                                1 ~ "male",
                                2 ~ "female"
-                               ))|>
-  relocate(nsrr_visit, .after = "nsrrid")
+                               ),
+         nsrr_file_prefix = str_replace(nsrrid, " ", "_"))|>
+  relocate(nsrr_visit, .after = "nsrrid") |>
+  relocate(visit, .after = nsrr_visit)
 
 write.csv(naps_nsrr, file.path(releasepath, paste0(version, "/naps-dataset-harmonized-", version, ".csv")), na = "", row.names = F)
