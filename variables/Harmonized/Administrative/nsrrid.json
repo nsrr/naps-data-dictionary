@@ -2,6 +2,6 @@
   "id": "nsrrid",
   "display_name": "NSRR subject identifier",
   "description": "The National Sleep Research Resource (NSRR) subject identifier links the subject's data and files.",
-  "type": "text",
+  "type": "identifier",
   "commonly_used": true
 }
