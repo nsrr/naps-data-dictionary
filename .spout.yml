@@ -1,3 +1,9 @@
-slug: naps-data-dictionary
+slug: naps
 visit: visit
 charts: []
+
+webservers:
+  - name: production
+    url: https://sleepdata.org
+  - name: staging
+    url: https://epista01.dipr.partners.org/sleepdata.org

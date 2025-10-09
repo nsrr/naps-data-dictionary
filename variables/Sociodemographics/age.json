@@ -1,6 +1,6 @@
 {
   "id": "age",
-  "display_name": "",
+  "display_name": "Age",
   "description": "",
   "type": "numeric",
   "units": "years"

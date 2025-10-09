@@ -1,6 +1,6 @@
 {
   "id": "study_type",
-  "display_name": "",
+  "display_name": "Study Type",
   "description": "",
   "type": "choices",
   "domain": "studytype"

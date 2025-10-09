@@ -1,7 +1,7 @@
 {
-  "id": "nsrr_visit",
+  "id": "visit",
   "display_name": "Study visit number",
   "description": "",
   "type": "choices",
-  "domain": "nsrr_visit"
+  "domain": "visit"
 }

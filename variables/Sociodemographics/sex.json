@@ -1,6 +1,6 @@
 {
   "id": "sex",
-  "display_name": "",
+  "display_name": "Sex",
   "description": "",
   "type": "choices",
   "domain": "sex"
