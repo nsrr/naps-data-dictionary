@@ -29,7 +29,8 @@ naps_nsrr <- naps |>
   mutate(nsrr_visit = visit,
          nsrr_sex = case_match(nsrr_sex,
                                1 ~ "male",
-                               2 ~ "female"
+                               2 ~ "female",
+                               NA ~ "not reported"
                                ),
          nsrr_file_prefix = str_replace(nsrrid, " ", "_"))|>
   relocate(nsrr_visit, .after = "nsrrid") |>
