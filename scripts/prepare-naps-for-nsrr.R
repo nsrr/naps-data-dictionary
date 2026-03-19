@@ -3,7 +3,7 @@
 library(dplyr)
 library(readxl)
 
-version <- "0.1.0.pre"
+version <- "0.1.0"
 
 naps_dir <- "/Volumes/bwh-sleepepi-nsrr-staging/20230918-naps/original-data/NAPS1demographicsNSRRtransfer.xlsx"
 naps_dir_1 <- '/Volumes/bwh-sleepepi-nsrr-staging/20230918-naps/original-data/Copy of NAPS1demographicsNSRRtransfer_with_FILE IDS.xlsx'
