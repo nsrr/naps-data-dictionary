@@ -1,3 +1,4 @@
-## 0.1.0 (October 7, 2025)
+## 0.1.0
 
-- Created the naps-data-dictionary data dictionary repository using Spout v1.0.0
+- Added variables from the contributor's NAPS1 dataset
+- Created the naps-data-dictionary repository using Spout v1.0.0

@@ -1,6 +1,8 @@
 slug: naps
 visit: visit
-charts: []
+charts:
+- chart: nsrr_sex
+  title: Sex
 
 webservers:
   - name: production
